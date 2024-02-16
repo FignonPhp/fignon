@@ -1,0 +1,7 @@
+vendor
+tests-data/smarty/compile
+tests-data/var
+.DS_Store
+.php-cs-fixer.cache
+.idea
+.vscode/settings.json

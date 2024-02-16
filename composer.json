@@ -1,0 +1,67 @@
+{
+    "name": "fignon/fignon",
+    "description": "Fignon is a middleware chain runner which starts with an http request and end with an http response. Fignon ease how to create php website and rest api.",
+    "type": "library",
+    "version": "0.0.1",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Fignon\\": "src/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "authors": [
+        {
+            "name": "Dah-kenangnon",
+            "email": "dah-kenangnon@gmail.com",
+            "homepage": "https://dah-kenangnon.com"
+        }
+    ],
+    "homepage": "https://github.com/FignonPhp",
+    "support": {
+        "issues": "https://github.com/FignonPhp/fignon/issues",
+        "source": "https://github.com/FignonPhp/fignon",
+        "docs": "https://github.com/FignonPhp"
+    },
+    "scripts": {
+        "test": " ./vendor/bin/phpunit tests"
+    },
+    "keywords": [
+        "fignon",
+        "FignonPhp",
+        "php",
+        "tunnel",
+        "middleware",
+        "chain",
+        "runner",
+        "http",
+        "request",
+        "response",
+        "website",
+        "rest",
+        "api",
+        "restful",
+        "rest-api",
+        "php-framework",
+        "php-middleware"
+    ],
+    "require": {
+        "php": ">=8.0.0",
+        "fignon/fignon-view-engine": "^0.0.1",
+        "fignon/terminal": "^0.0.1",
+        "symfony/http-foundation": "^7.0",
+        "symfony/yaml": "^7.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10",
+        "fignon/fignon-twig-engine": "^0.0.1"
+    },
+    "conflict": {
+        "symfony/http-foundation": "<7.0"
+    },
+    "prefer-stable": true,
+    "minimum-stability": "dev"
+}
