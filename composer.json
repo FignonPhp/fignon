@@ -62,6 +62,6 @@
     "conflict": {
         "symfony/http-foundation": "<7.0"
     },
-    "prefer-stable": true,
-    "minimum-stability": "dev"
+    "prefer-stable": true
 }
+
